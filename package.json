@@ -1,0 +1,26 @@
+{
+  "name": "bourbon-sass-loader",
+  "description": "A webpack loader for Bourbon sass",
+  "main": "index.js",
+  "version": "0.1.0",
+  "loader": "index.loader.js",
+  "keywords": [
+    "bourbon",
+	 "bourbon-neat",
+    "webpack"
+  ],
+  "author": {
+    "name": "Loic Le Malliaud <loic.lemalliaud@gmail.com>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lowik/bourbon-sass-loader.git"
+  },
+  "peerDependencies": {
+    "bourbon": "*",
+	 "bourbon-neat": "*",
+    "css-loader": "*",
+    "sass-loader": "*",
+    "style-loader": "*"
+  }
+}
